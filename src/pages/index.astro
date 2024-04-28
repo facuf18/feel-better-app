@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HeaderButton from '../components/HeaderButton.astro';
+---
+
+<Layout title='Welcome to Astro.'>
+  <header class='py-8 px-4 mx-auto max-w-xl lg:py-16 lg:px-6'>
+    <div class='mx-auto text-center mb-8 lg:mb-16'>
+      <h1
+        class='mb-4 text-5xl tracking-light uppercase font-extrabold text-gray-200'
+      >
+        Just feel better
+      </h1>
+    </div>
+    <nav
+      class='flex flex-row items-center justify-center gap-6 md:gap-12 w-full text-center'
+    >
+      <HeaderButton href='/dogs'>Dog person 🐶</HeaderButton>
+      <HeaderButton href='/cats'>Cat person 🐱</HeaderButton>
+    </nav>
+  </header>
+</Layout>

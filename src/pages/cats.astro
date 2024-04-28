@@ -1,0 +1,24 @@
+---
+import HeaderButton from '../components/HeaderButton.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title='Cats'>
+  <main class='py-8 px-4 mx-auto max-w-xl lg:py-16 lg:px-6'>
+    <div class='mx-auto text-center mb-8 lg:mb-16'>
+      <h2 class='text-4xl font-bold'>Catsssss 🐱</h2>
+    </div>
+
+    <nav
+      class='flex flex-row items-center justify-center gap-6 md:gap-12 w-full text-center'
+    >
+      <HeaderButton href='/'>⬅️ I changed my opinion</HeaderButton>
+    </nav>
+
+    <div class='mx-auto text-center mt-8 lg:mt-16'>
+      <p class='text-xl font-normal'>
+        Go back and try with dogs (Work in progress)
+      </p>
+    </div>
+  </main>
+</Layout>
