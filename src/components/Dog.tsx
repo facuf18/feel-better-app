@@ -1,6 +1,4 @@
-import { Suspense } from 'preact/compat';
 import { useEffect, useState } from 'preact/hooks';
-import Loader from './Loader';
 
 interface DogData {
   status: string;
